@@ -1,0 +1,39 @@
+[{
+    "id": 1,
+    "title": "publishing and sheduling",
+    "description": "publishing and sheduling",
+    "body": "Plan, collaborate, and schedule content for all your social channels",
+    "image": "./public/board.png"
+    
+    },
+
+    {
+        "id": 2,
+        "title": "Analytics and insights",
+        "description": "publishing and sheduling",
+        "body": "Brilliant post on fetch...",
+        "image": "./public/board.png"
+        
+        },
+
+
+        {
+            "id": 3,
+            "title": "teams and spaces",
+            "description": "publishing and sheduling",
+            "body": "Brilliant post on fetch...",
+            "image": "./public/board.png"
+            
+            },
+
+            {
+                "id": 4,
+                "title": "inbox and engagement",
+                "description": "publishing and sheduling",
+                "body": "Brilliant post on fetch...",
+                "image": "./public/board.png"
+                
+                }
+]
+
+

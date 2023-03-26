@@ -1,0 +1,19 @@
+{
+  "name": "symphonisocial",
+  "version": "1.0.0",
+  "description": "symphoni social website",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "author": "symphoni social dev team",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.4"
+    
+  }
+}
