@@ -1,304 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="shortcut icon" href="./public/icon.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>symphoni social</title>
-</head>
+<section class="py-10 bg-gray-900 sm:py-16 lg:py-24">
+  <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
+          <div class="flex flex-col justify-between lg:py-5">
+              <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:leading-tight lg:text-5xl">Join 35k+ web professionals & build your website</h2>
 
-<body >
-     
-    <div class="relative isolate h-fit lg:h-screen overflow-visible lg:overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 overflow-x-hidden">
-     
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
-       <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
-       <defs>
-         <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-           <stop stop-color="#000247"></stop>
-           <stop offset="1" stop-color="#000247"></stop>
-         </radialGradient>
-       </defs>
-     </svg>
-   
-<div class="container center" id="home">
-  <nav class=" px-2 sm:px-4 py-2.5 mb-11 lg:mb-0 bg-gray-900 z-40">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
-    <a href="./index.html" class="flex items-center justify-center">
-        <img src="./public/logo.png" class="mr-3 h-10 sm:h-9 lg:h-24 rounded-full" alt="symphoni social logo Logo">
-        <span class="text-white self-center text-xl hidden md:flex font-semibold whitespace-nowrap">symphoni social</span>
-    </a>
-    <div class="flex md:order-2">
-        <button type="button" class="text-white bg-green-500 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Get started</button>
-        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-      </button>
-    </div>
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:bg-gray-900 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
-        <li><a href="./index.html" class='md:text-green-500 text-gray-900 text-sm font-semibold leading-6 hover:text-green-500'>Home</a></li>
-        <li><a href="./product.html" class='md:text-white text-gray-900 text-sm font-semibold leading-6 hover:text-green-500'>Product</a></li>
-        <li><a href="./company-type.html" class='md:text-white text-sm text-gray-900 font-semibold leading-6 hover:text-green-500'>Case study</a></li>
-        <li><a href="./blogue.html" class='md:text-white text-gray-900 text-sm font-semibold leading-6 hover:text-green-500'>Blog</a></li>
-        <li><a href="#partners" class='md:text-white text-gray-900 text-sm font-semibold leading-6 hover:text-green-500'>Partners</a></li>
-        
-  
-  
-      </ul>
-    </div>
-    </div>
-  </nav>
-<div class="flex flex-col lg:flex-row items-center justify-between">
- <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left mytext">
- <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl fadein">We help your team manage social media at scale.</h2>
-       <p class="mt-6 text-lg leading-8 text-gray-300 fadein">symphoni is a social management platform build to enhance your social experience our platform unlocks the full potential of social to transform not just your marketing strategy—but every area of your organizaon</p>
-       <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-         <a href="#" class="rounded-md bg-green-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-white hover:text-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
-         <a href="#" class="text-base font-semibold leading-7 text-white fadein">Learn more <span aria-hidden="true">→</span></a>
-       </div>
- </div>
- <div class=" scale-75 lg:scale-100" id="headerimage">
- <image class="tilt-in-top-1"
-        src="./public/publishing.png"
-        alt='logo'/>
- </div>
+              <div class="mt-auto">
+                  <div class="flex items-center">
+                      <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                          />
+                      </svg>
+                      <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                          />
+                      </svg>
+                      <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                          />
+                      </svg>
+                      <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                          />
+                      </svg>
+                      <svg class="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                          />
+                      </svg>
+                  </div>
 
-</div>
+                  <blockquote class="mt-6">
+                      <p class="text-lg leading-relaxed text-white">You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.</p>
+                  </blockquote>
 
-</div>
+                  <div class="flex items-center mt-8">
+                      <img class="flex-shrink-0 object-cover w-10 h-10 rounded-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/pricing/2/avatar.jpg" alt="" />
+                      <div class="ml-4">
+                          <p class="text-base font-semibold text-white">Brooklyn Simmons</p>
+                          <p class="mt-px text-sm text-gray-400">Digital Marketer</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
+          <div class="">
+              <div class="overflow-hidden bg-white rounded-md">
+                  <div class="p-10">
+                      <h3 class="text-xs font-semibold tracking-widest text-purple-600 uppercase">Single pack</h3>
+                      <p class="mt-4 text-6xl font-bold text-black">$79</p>
 
+                      <ul class="flex flex-col mt-8 space-y-4">
+                          <li class="inline-flex items-center space-x-2">
+                              <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                              </svg>
+                              <span class="text-base font-medium text-gray-900"> 1 Domain License </span>
+                          </li>
 
-   </div>
-   <div>
+                          <li class="inline-flex items-center space-x-2">
+                              <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                              </svg>
+                              <span class="text-base font-medium text-gray-900"> Full Celebration Library </span>
+                          </li>
 
-    <div class="partners p-10" id="partners">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl lg:text-center">
-              <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600"> 500+ digital marketers across africa are on this journer and you ?</h2>
-              <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Met those who trust Us</p>
-              <p class="mt-6 text-lg leading-8 text-gray-600">we help our user make the best of thier social experience with symphoni a single digital marketer can do the job of 3</p>
-            </div>
-        <div class="grid grid-cols-2 gap-12 md:flex md:justify-around md:items-center lg:gap-12 p-10 lg:flex-row ">
-            <a href="https://www.ejara.io/" target="_blank" class="flex justify-center items-center">
-                <img src="./public/partnerlogo/ejaralogo.jpg" class="h-20 grayscale hover:grayscale-0 hover:scale-125 ease-in duration-300" alt="" srcset="">
-            </a>
-            <a href="https://www.codechosting.cm/" target="_blank" class="flex justify-center items-center">
-                <img src="./public/partnerlogo/codeclogo.png" class="h-20 w-23 z-0 grayscale hover:grayscale-0 hover:scale-125 ease-in duration-300"  alt="" srcset="">
-            </a> <a href="https://www.facebook.com/excelacademy.cm/" target="_blank" class="flex justify-center items-center">
-                <img src="./public/partnerlogo/exellogo.png" class="h-28 w-28 grayscale hover:grayscale-0 hover:scale-125 ease-in duration-300" alt="" srcset="">
-            </a> <a href="https://dev-style.com/" target="_blank" class="flex justify-center items-center">
-                <img src="./public/partnerlogo/devstyle dark.png" class="h-20 w-32 grayscale hover:grayscale-0 hover:scale-125 ease-in duration-300" alt="" srcset="">
-            </a>
-        </a> <a href="https://gdg.community.dev/gdg-buea/" target="_blank" class="flex justify-center items-center">
-            <img src="./public/partnerlogo/gdgbuealog.png" class="h-20 w-32 grayscale hover:grayscale-0 hover:scale-125 ease-in duration-300" alt="" srcset="">
-        </a>
-        </div>
-      
-    </div>
+                          <li class="inline-flex items-center space-x-2">
+                              <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                              </svg>
+                              <span class="text-base font-medium text-gray-900"> 120+ Coded Blocks </span>
+                          </li>
 
+                          <li class="inline-flex items-center space-x-2">
+                              <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                              </svg>
+                              <span class="text-base font-medium text-gray-900"> Design Files Included </span>
+                          </li>
 
+                          <li class="inline-flex items-center space-x-2">
+                              <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                              </svg>
+                              <span class="pb-0.5 text-base font-medium text-gray-900 border-b border-black border-dashed"> Premium Support </span>
+                          </li>
+                      </ul>
 
+                      <a href="#" title="" class="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-white transition-all duration-200 rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-80 focus:opacity-80" role="button"> Get full access </a>
 
-
-
-
-
-    
-<div class="" id="about">
- 
- <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-   <div class="relative isolate overflow-hidden bg-white px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-     
-     <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-        <div class="functionalities">
-          
-
-        </div>
-      
-       <div class="mt-10 grid grid-cols-2 gap-4 items-center justify-center gap-x-6 lg:justify-start">
-         <button class="rounded-md text-white bg-green-500 px-3.5 py-1.5 shadow-green-400/40 shadow-xl font-semibold leading-7 shadow-sm flex justify-center align-center hover:shadow-sm" id="publishing">publishing</button>
-         <button href="#" class="rounded-md text shadow-gray-400/40 shadow-xl hover:shadow-sm bg-white px-3.5 py-1.5  font-semibold leading-7 shadow-sm flex justify-center align-center hover:shadow-sm" id="analyses">analyses</button>
-         <button href="#" class="rounded-md text shadow-gray-400/40 shadow-xl bg-white px-3.5 py-1.5  font-semibold leading-7 shadow-sm flex justify-center align-center hover:shadow-sm" id="spaces">spaces</button>
-         <button href="#" class="rounded-md text shadow-gray-400/40 shadow-xl bg-white px-3.5 py-1.5  font-semibold leading-7 shadow-sm flex justify-center align-center hover:shadow-sm" id="advocacy">advocay</button>
-      
-       </div>
-     </div>
-     <div class="relative mt-16 h-80 lg:mt-8" id="fonctionalityImage">
-     <image class="shadow-gray-500/40 shadow-lg shadow-2xl"
-        src="./public/board.png"
-        alt='logo'
-        />
-     </div>
-   </div>
- </div>
-</div>
-
-
-   </div>
-<div class="bg-white py-24 sm:py-32">
- <div class="mx-auto max-w-7xl px-6 lg:px-8">
-   <div class="mx-auto max-w-2xl lg:text-center">
-     <h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">deploy your social strategie faster</h2>
-     <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">We build solutions for all enterprises</p>
-     <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
-   </div>
-   <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-     <dl class="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-       <div class="relative pl-16">
-         <dt class="text-base font-semibold leading-7 text-gray-900">
-           <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-500">
-            <i class="fa-regular fa-building text-white text-xl"></i> 
-           </div>
-           <h1 class='font-bold tracking-tight mb-3 text-2xl'>StartUp</h1>
-         </dt>
-         <dd class="mt-2 text-base leading-7 text-gray-600">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.
-            <a href="#" class="text-base font-semibold leading-7 ml-4 text-green-500">Learn more <span aria-hidden="true">→</span></a> 
-         </dd>
-       </div>
-
-       <div class="relative pl-16">
-         <dt class="text-base font-semibold leading-7 text-gray-900">
-           <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-500">
-            <i class="fa-solid fa-hand-holding-heart text-white text-xl"></i>
-           </div>
-           <h1 class='font-bold tracking-tight mb-3 text-2xl'>
-           Communities And NGO
-           </h1>
-         </dt>
-         <dd class="mt-2 text-base leading-7 text-gray-600">Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.
-            <a href="#" class="text-base font-semibold leading-7 ml-4 text-green-500">Learn more <span aria-hidden="true">→</span></a> 
-         </dd>
-       </div>
-
-       <div class="relative pl-16">
-         <dt class="text-base font-semibold leading-7 text-gray-900">
-           <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-500">
-            <i class="fa-solid fa-city text-2xl text-white"></i>
-            
-           </div>
-          <h1 class='font-bold tracking-tight mb-3 text-xl'>
-          Enterprise
-           </h1>
-         </dt>
-         <dd class="mt-2 text-base leading-7 text-gray-600">Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.
-            <a href="#" class="text-base font-semibold leading-7 ml-4 text-green-500">Learn more <span aria-hidden="true">→</span></a> 
-         </dd>
-       </div>
-
-       <div class="relative pl-16">
-         <dt class="text-base font-semibold leading-7 text-gray-900">
-           <div class="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-500">
-            <i class="fa-solid fa-building text-white text-xl"></i>
-           </div>
-           <h1 class='font-bold tracking-tight mb-3 text-2xl'>Digital Agencies
-             </h1>
-         </dt>
-         <dd class="mt-2 text-base leading-7 text-gray-600">Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget
-            <a href="#" class="text-base font-semibold leading-7 ml-4 text-green-500">Learn more <span aria-hidden="true">→</span></a></dd>
-       </div>
-     </dl>
-   </div>
- </div>
-</div>
-
-<footer class="relative isolate h-fit overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 text-white p-2">
-
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2" aria-hidden="true">
-       <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
-       <defs>
-         <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-           <stop stop-color="#000247"></stop>
-           <stop offset="1" stop-color="#000247"></stop>
-         </radialGradient>
-       </defs>
-     </svg>
-     <div class="container center">
-       <div class="top flex flex-col lg:flex-row justify-around items-center  lg:gap-x-12">
-
-       <div class="leftsection">
-       <Link href="#" class="-m-1.5 p-1.5">
-        <Image class="rounded-full h-64 w-64"
-        src="./public/footer_logo.png"
-        alt='logo'
-        height={100}
-        width={100}
-        />
-       </Link>
-       </div>
-       <div class=" text-white hidden lg:flex justify-around gap-x-36 text-xl">
-         <div class="left flex flex-col gap-y-1">
-         <Link href="#"><h2 class='font-bold tracking-tight mb-3'>Solutions</h2></Link>
-         <Link href="#"><h2>Sheduling</h2></Link>
-         <Link href="#"><h2>Publishing</h2></Link>
-         <Link href="#"><h2>Analytics</h2></Link>
-         <Link href="#"><h2>insights</h2></Link>
-         <Link href="#"><h2>Benchmarks</h2></Link>
-         </div>
-         <div class="center flex flex-col gap-y-1">
-         <Link href="#"><h2 class='font-bold tracking-tight mb-3'>Support</h2></Link>
-         <Link href="#"> <h2>Pricing</h2></Link>
-         <Link href="#"> <h2>Privacy</h2></Link>
-         <Link href="#">  <h2>Terms</h2></Link>
-         <Link href="#"><h2>Guides</h2></Link>
-         <Link href="#"><h2>For Your Company</h2></Link>
-         </div>
-         <div class="flex flex-col gap-y-1">
-         <Link href="#"><h2 class='font-bold tracking-tight mb-3'>About</h2></Link>
-         <Link href="#"><h2>Blog</h2></Link>
-         <Link href="#"> <h2>Jobs</h2></Link>
-         <Link href="#"><h2>Press</h2></Link>
-         <Link href="#"><h2>Partners</h2></Link>
-
-         </div>
-         
-       </div>
-
-
-       </div>
-
-
-<hr class='h-px my-8 bg-gray-600 border-0 my-12' />
-       <div class=" flex flex-col lg:flex-row gap-y-12 justify-between items-center mb-3">
-         <div class="textSection">
-           <h1 class='font-bold text-2xl mb-2'>Subscribe to our news letter</h1>
-           <p class='text-xl'>the latest news, blogs, articles and resources to your inbox every week </p>
-         </div>
-         <div class=" flex justify-around items-center gap-x-8 flex flex-col lg:flex-row gap-y-8">
-           <input type="text" placeholder='Enter Your Email' class='rounded-md p-3 focus:outline-0 border-2 border-white focus:border-2 focus:border-green-500 bg-gray-700 text-white'/>
-           <button class='bg-green-400 text-white font-bold p-3 rounded-md'>Subscribe</button>
-         </div>
-       </div>
-<hr class='h-px my-8 bg-gray-600 border-0 my-12' />
-
-       <div class="sociallinks">
-         <div class="textSection flex justify-center items-center">
-           <h3 class='text-md lg:text-lg'>&copy;2023 Syphoni Social, Inc. Allrights reserved.</h3>
-
-         </div>
-         <div class="socialLinks">
-           <Link href=""></Link>
-         </div>
-
-       </div>
-       
+                      <div class="flex items-center mt-5">
+                          <svg class="flex-shrink-0 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                          </svg>
+                          <span class="ml-2 text-sm text-gray-500"> 14 Days Moneyback Guarantee </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
 
 
 
 
-     </div>
-</footer  >
-<script src="./index.js"></script>
-<script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-</body>
-</html>
 
 
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"> 
 
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+
+
+
