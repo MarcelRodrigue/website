@@ -1,0 +1,35 @@
+[{
+    "id": 1,
+    "title": "publishing and sheduling",
+    "description": "blabla",
+    "image": "./public/board.png",
+    "body": "Plan, collaborate, and schedule content for all your social channels"
+
+    
+    },
+    {
+        "id": 2,
+        "title": "Met those who trust Us",
+        "description": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
+        "image": "./public/insta.png",
+        "body": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis., Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam distinctio repudiandae id numquam ullam repellendus dolore dolorem exercitationem error autem eveniet soluta cumque magni hic voluptatibus arc t. In mi viverra elit nunc.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam distinctio repudiandae id numquam ullam repellendus dolore dolorem exercitationem error autem eveniet soluta cumque magni hic voluptatibus arc arc t. In mi viverra elit nunc.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam distinctio repudiandae id numquam ullam repellendus dolore dolorem exercitationem error autem eveniet soluta cumque magni hic voluptatibus arcarc t. In mi viverra elit nunc.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam distinctio repudiandae id numquam ullam repellendus dolore dolorem exercitationem error autem eveniet soluta cumque magni hic voluptatibus arcarc t. In mi viverra elit nunc.  Lorem ipsum, dolor sit amet consecte"
+        
+        },
+        {
+            "id": 3,
+    "title": "publishing and sheduling",
+    "description": "blabla",
+    "image": "./public/board.png",
+    "body": "Plan, collaborate, and schedule content for all your social channels"
+
+            
+            },
+            {
+                "id": 4,
+    "title": "publishing and sheduling",
+    "description": "blabla",
+    "image": "./public/board.png",
+    "body": "Plan, collaborate, and schedule content for all your social channels"
+
+                }
+]

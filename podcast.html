@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Simple Music Player</title>
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="shortcut icon" href="./public/dark fav icon/transparent_dark_fav_icon.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white">
+<div class="player mt-11">
+
+	<!-- Define the section for displaying details -->
+	<div class="details flex justify-center items-center flex-col gap-4 md:gap-0">
+	<div class="now-playing text-2xl">PLAYING x OF y</div>
+	<div class="track-art bg-[url('./public/board.png')]"></div>
+	<div class="track-name text-center scale-75 md:scale-100">Track Name</div>
+	<div class="track-artist">Track Artist</div>
+	</div>
+
+	<!-- Define the section for displaying track buttons -->
+	<div class="buttons">
+	
+	<div class="playpause-track" onclick="playpauseTrack()">
+		<i class="fa fa-play-circle fa-5x iconclr"></i>
+	</div>
+	</div>
+
+	<!-- Define the section for displaying the seek slider-->
+	<div class="slider_container">
+	<div class="current-time">00:00</div>
+	<input type="range" min="1" max="100"
+		value="0" class="seek_slider" onchange="seekTo()">
+	<div class="total-duration">00:00</div>
+	</div>
+
+	<!-- Define the section for displaying the volume slider-->
+	<div class="slider_container">
+	<i class="fa fa-volume-down"></i>
+	<input type="range" min="1" max="100"
+		value="99" class="volume_slider" onchange="setVolume()">
+	<i class="fa fa-volume-up"></i>
+	</div>
+</div>
+
+<!-- Load the main script for the player -->
+
+<script src="main.js"></script>
+<script> 
+    window.addEventListener("load", (event) => {
+      var a = window.location.href;
+      let blogId = a.split('#')[1]
+      let calc = blogId - 1;
+      console.log(a.split('#')[1]);
+      loadTrack(calc);
+
+    });
+    
+  </script>
+  <a href="./public/symphoni_banner.jpeg"></a>
+</body>
+</html>
